@@ -3,7 +3,7 @@ import java.util.ArrayList; // Importação  Lista Encadenada
 import java.util.List; // Importação Lista
 import java.util.Scanner; // Importação leitura de dados do usuário
 
-// Classe Escolha Aletório
+// Classe Escolha Aleatório
 public class EscolhaNum {
     public static List<Integer> gerarListaRandom(int size) {
         List<Integer> listaRandom = new ArrayList<>();
