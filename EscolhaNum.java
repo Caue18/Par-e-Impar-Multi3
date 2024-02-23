@@ -27,7 +27,7 @@ public class EscolhaNum {
     }
 // Função Principal
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)){
 
         System.out.println("Digite o Tamanho da lista");
         int size = scanner.nextInt();
@@ -38,4 +38,5 @@ public class EscolhaNum {
             verificarNumero(numero);
         }
     }
+}
 }
