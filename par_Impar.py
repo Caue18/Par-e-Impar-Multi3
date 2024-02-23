@@ -2,7 +2,7 @@ import random  # Importação aleatória
 
 # Função de aleatório
 def lista_Gerada_random(size):
-    lista_random = [random.randint(1, 100) for _ in range(size)]
+    lista_random = [random.randint(0, 100) for _ in range(size)]
     return lista_random
 
 # Função de números escolha de par, ímpar e múltiplos de 3
